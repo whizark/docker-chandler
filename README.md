@@ -7,6 +7,9 @@
 
 [Alpine Linux][alpine-linux] based Docker image for [chandler][chandler].
 
+> chandler syncs your CHANGELOG entries to GitHub's release notes so you
+> don't have to enter release notes manually.
+
 ## Usage
 
 ```sh
