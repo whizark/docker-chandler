@@ -29,13 +29,13 @@ docker pull quay.io/whizark/chandler
 Run the image pulled from Docker Hub.
 
 ```sh
-docker run --rm -i -e CHANDLER_GITHUB_API_TOKEN="Your GitHub Token" -v "$(pwd):/chandler" whizark/chandler [command] [tag] [options]
+docker run --rm -it -e CHANDLER_GITHUB_API_TOKEN="Your GitHub Token" -v "$(pwd):/chandler" whizark/chandler [command] [tag] [options]
 ```
 
 Or, run the image pulled from Quay.
 
 ```sh
-docker run --rm -i -e CHANDLER_GITHUB_API_TOKEN="Your GitHub Token" -v "$(pwd):/chandler" quay.io/whizark/chandler [command] [tag] [options]
+docker run --rm -it -e CHANDLER_GITHUB_API_TOKEN="Your GitHub Token" -v "$(pwd):/chandler" quay.io/whizark/chandler [command] [tag] [options]
 ```
 
 [alpine-linux]: https://alpinelinux.org
