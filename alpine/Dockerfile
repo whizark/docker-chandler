@@ -1,6 +1,6 @@
 FROM ruby:alpine
 
-MAINTAINER Whizark https://github.com/whizark
+LABEL maintainer="Whizark https://github.com/whizark"
 
 ENV CHANDLER_VERSION=latest \
     CHANDLER_WORKDIR=/chandler \
