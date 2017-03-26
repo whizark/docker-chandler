@@ -7,7 +7,7 @@ ENV CHANDLER_VERSION=latest \
     CHANDLER_GITHUB_API_TOKEN=YOUR_GITHUB_API_TOKEN \
     PAGER=cat
 
-RUN apk add --update --no-cache git
+RUN apk add --no-cache git
 
 RUN if [[ "$CHANDLER_VERSION" == "latest" ]]; then \
         gem install chandler --no-document; \
