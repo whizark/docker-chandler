@@ -7,6 +7,7 @@ ENV CHANDLER_VERSION=latest \
     CHANDLER_GITHUB_API_TOKEN=YOUR_GITHUB_API_TOKEN \
     PAGER=cat
 
+# hadolint ignore=DL3018
 RUN apk add --no-cache git
 
 RUN if [[ "$CHANDLER_VERSION" == "latest" ]]; then \
