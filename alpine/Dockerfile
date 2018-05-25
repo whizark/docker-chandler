@@ -22,4 +22,4 @@ RUN if [[ ! -d "${CHANDLER_WORKDIR}" ]]; then \
 
 WORKDIR ${CHANDLER_WORKDIR}
 
-ENTRYPOINT ["chandler"]
+ENTRYPOINT ["/usr/local/bundle/bin/chandler"]
